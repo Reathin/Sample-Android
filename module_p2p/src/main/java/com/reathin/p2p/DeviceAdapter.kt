@@ -1,4 +1,4 @@
-package com.reathin.sample
+package com.reathin.p2p
 
 import android.net.wifi.p2p.WifiP2pDevice
 import android.view.LayoutInflater
@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.AdapterView.OnItemSelectedListener
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.reathin.sample.R
 import com.reathin.sample.databinding.LayoutDeviceItemBinding
 
 class DeviceAdapter(private var deviceList: List<WifiP2pDevice>) :

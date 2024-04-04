@@ -1,4 +1,4 @@
-package com.reathin.sample
+package com.reathin.p2p
 
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver
