@@ -1,5 +1,5 @@
 #pragma version(1)
-#pragma rs java_package_name(com.example.yourapp)
+#pragma rs java_package_name(com.reathin.renderscript)
 
 // 输入图像
 rs_allocation inImage;
