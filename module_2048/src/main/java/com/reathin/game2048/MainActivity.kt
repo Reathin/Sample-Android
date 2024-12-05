@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity(), GestureDetector.OnGestureListener {
                 gridLayout.addView(tileView)
             }
         }
-        scoreTextView.text = "Score: $score"
+        scoreTextView.text = "分数: $score"
     }
 
     private fun getTileTextColor(value: Int): Int {

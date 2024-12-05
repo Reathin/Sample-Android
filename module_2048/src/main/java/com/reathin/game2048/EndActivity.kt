@@ -13,7 +13,7 @@ class EndActivity : AppCompatActivity() {
         setContentView(R.layout.activity_end)
 
         val score = intent.getIntExtra("SCORE", 0)
-        findViewById<TextView>(R.id.scoreTextView).text = "Your Score: $score"
+        findViewById<TextView>(R.id.scoreTextView).text = "最终得分: $score"
 
         findViewById<Button>(R.id.restartButton).setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))

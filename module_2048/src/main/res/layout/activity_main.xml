@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Score: 0"
+        android:text="分数: 0"
         android:textColor="#776E65"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
