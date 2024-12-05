@@ -1,0 +1,13 @@
+<resources>
+    <style name="Theme.Game2048" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#FAF8EF</item>
+        <item name="colorPrimaryDark">#BBB2A1</item>
+        <item name="colorAccent">#776E65</item>
+    </style>
+
+    <style name="Theme.Game2048.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
