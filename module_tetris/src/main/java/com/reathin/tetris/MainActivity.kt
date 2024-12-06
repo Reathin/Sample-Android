@@ -44,7 +44,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         initializeViews()
-        setupListeners()
     }
 
     private fun initializeViews() {
@@ -59,6 +58,13 @@ class MainActivity : AppCompatActivity() {
         gameOverLayout = findViewById(R.id.gameOverLayout)
         startGameLayout = findViewById(R.id.startGameLayout)
         nextPieceBoard = findViewById(R.id.nextPieceBoard)
+
+        startButton.setOnClickListener { startGame() }
+        leftButton.setOnClickListener { movePiece(-1, 0) }
+        rightButton.setOnClickListener { movePiece(1, 0) }
+        rotateButton.setOnClickListener { rotatePiece() }
+        dropButton.setOnClickListener { dropPiece() }
+        restartButton.setOnClickListener { startGame() }
 
         for (i in 0 until boardHeight) {
             for (j in 0 until boardWidth) {
@@ -91,15 +97,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun setupListeners() {
-        startButton.setOnClickListener { startGame() }
-        leftButton.setOnClickListener { movePiece(-1, 0) }
-        rightButton.setOnClickListener { movePiece(1, 0) }
-        rotateButton.setOnClickListener { rotatePiece() }
-        dropButton.setOnClickListener { dropPiece() }
-        restartButton.setOnClickListener { startGame() }
-    }
-
+    /**
+     * 开始游戏
+     */
     private fun startGame() {
         isGameRunning = true
         score = 0
