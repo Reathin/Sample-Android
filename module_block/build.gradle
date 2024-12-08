@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.reathin.box'
+    namespace 'com.reathin.block'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.reathin.box"
+        applicationId "com.reathin.block"
         minSdk 21
         targetSdk 34
         versionCode 1

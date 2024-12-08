@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SampleAndroid">
         <activity
-            android:name=".MainActivity"
+            android:name="com.reathin.block.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
