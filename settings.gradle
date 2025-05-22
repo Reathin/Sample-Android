@@ -14,6 +14,10 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        maven {
+            allowInsecureProtocol true
+            url "https://maven.aliyun.com/repository/public"
+        }
         google()
         mavenCentral()
     }
@@ -23,8 +27,9 @@ rootProject.name = "Sample-Android"
 include ':module_p2p'
 include ':module_exif'
 include ':module_renderscript'
-include ':module_mlkit'
 include ':module_2048'
+include ':module_mlkit'
 include ':module_tetris'
 include ':module_block'
 include ':module_snake'
+include ':module_compose_size'
