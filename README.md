@@ -7,4 +7,7 @@
 * module_p2p: WiFi P2P通信 https://mp.weixin.qq.com/s/I6lVk4uoQuYzLO1fog2Tog
 * module_renderscript: RenderScript https://mp.weixin.qq.com/s/c1YUAiiSbhDF9p0h3bbI7A
 * module_tetris: 俄罗斯方块小游戏 https://mp.weixin.qq.com/s/40gHWaec4xhpTaV5KKdlYg
-* module_compose_size: Compose Size 
+* module_compose_size: Compose Size示例 
+* module_compose_modifier: Compose Modifier示例 
+* module_compose_theme: Compose主题示例 
+* module_compose_drag: Compose拖拽示例 
