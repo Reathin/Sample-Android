@@ -11,3 +11,5 @@
 * module_compose_modifier: Compose Modifier示例 https://mp.weixin.qq.com/s/xmVbOHleAOZJAxFWXBwpjQ
 * module_compose_theme: Compose主题示例 https://mp.weixin.qq.com/s/lfgFuSK4zOLJ9_eG61mFvQ
 * module_compose_drag: Compose拖拽示例 https://mp.weixin.qq.com/s/QqL74R_6cjzBHJPiozLDVg
+* module_floating: 悬浮窗自动贴边示例 https://mp.weixin.qq.com/s/E33wCQ6VQu3bgyniKHG8nQ
+* module_notification: Android 16新进度通知示例 
