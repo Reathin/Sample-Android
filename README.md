@@ -13,3 +13,4 @@
 * module_compose_drag: Compose拖拽示例 https://mp.weixin.qq.com/s/QqL74R_6cjzBHJPiozLDVg
 * module_floating: 悬浮窗自动贴边示例 https://mp.weixin.qq.com/s/E33wCQ6VQu3bgyniKHG8nQ
 * module_notification: Android 16新进度通知示例 
+* module_compose_like: Compose点赞动画示例 
