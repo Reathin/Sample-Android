@@ -12,5 +12,5 @@
 * module_compose_theme: Compose主题示例 https://mp.weixin.qq.com/s/lfgFuSK4zOLJ9_eG61mFvQ
 * module_compose_drag: Compose拖拽示例 https://mp.weixin.qq.com/s/QqL74R_6cjzBHJPiozLDVg
 * module_floating: 悬浮窗自动贴边示例 https://mp.weixin.qq.com/s/E33wCQ6VQu3bgyniKHG8nQ
-* module_notification: Android 16新进度通知示例 
-* module_compose_like: Compose点赞动画示例 
+* module_notification: Android 16新进度通知示例 https://mp.weixin.qq.com/s/xhfw-ERFh7VNerPR3XT8sQ
+* module_compose_like: Compose点赞动画示例 https://mp.weixin.qq.com/s/x-4IKCf7I8D9tBQp-R7-Aw
